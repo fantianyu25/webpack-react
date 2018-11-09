@@ -20,4 +20,16 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component());
+let element = component(); // Store the element to re-render on print.js changes
+document.body.appendChild(element);
+
+if (module.hot) {
+  module.hot.accept("./print.js", function() {
+    console.log("--------调试--------");
+    console.log("Accepting tghe updated printMe module!");
+    console.log("--------调试--------");
+    document.body.removeChild(element);
+    element = component(); // Re-render the "component" to update the click handler
+    document.body.appendChild(element);
+  });
+}

@@ -6,6 +6,6 @@
  */
 export default function printMe() {
   console.log("--------调试--------");
-  console.log("I get called from print.js!");
+  console.log("Updating print.js...!!");
   console.log("--------调试--------");
 }
