@@ -1,12 +1,16 @@
 {
   "name": "webpack-react",
+  "sideEffects": [
+    "./src/some-side-effectful-file.js",
+    "*.css"
+  ],
   "version": "1.0.0",
   "description": "my self webpack and react",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --colors",
-    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.prod.js --colors",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.js"
   },
   "author": "fty",
@@ -17,7 +21,8 @@
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.11",
     "webpack-dev-middleware": "^3.4.0",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
     "webpack": "^4.25.1",
