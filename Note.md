@@ -74,3 +74,15 @@ plugins: [
 * 如果使用了 webpack-dev-middleware nodejs 中间件服务器，使用 webpack-hot-middleware 进行服务器热更新
 * 针对react 有一套自己的热更新 react hot loader
 
+### 7 环境搭建
+两个问题 开发环境 与 生产环境 \
+开发环境：
+   * 需要更大的 source-mapping (追踪代码错误)
+   * 需要本地的服务器 并且 包含热加载功能
+生产环境：
+   * 需要项目文件更小
+   * 更轻的source map
+   * 最佳的配置提高图区时间
+结论：最好把配置文件分开写
+
+
