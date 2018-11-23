@@ -11,6 +11,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
 	entry: {
 		index: './src/index.js',
+		another: './src/another-module.js'
 	},
 	plugins: [
 		new CleanWebpackPlugin(['dist']),
