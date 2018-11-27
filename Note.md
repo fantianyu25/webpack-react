@@ -98,3 +98,6 @@ plugins: [
 * 如果在入口里有任何模块复制，他们会被包含在所有包里
 * 这样不灵活并且不能使用 核心应用逻辑 来动态的拆分代码
 * 还是需要通过 SplitChnksPlugin 来移除重复的部分
+
+##### 去重复
+* 设置optimization.splitChunks
