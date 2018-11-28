@@ -45,4 +45,27 @@
 ### entirely 完全地
 
 ### duplicate 复制
+
 ### de-duplicate 去重复、减少重复
+
+### similar 相似的
+
+### techniques 技术
+
+### syntax 语法
+
+### conforms 符合
+
+### proposal 提议
+
+### legacy 遗产、遗赠
+
+### specific 特殊的
+
+### determines
+
+### instead 代替
+
+### artificial 人造的
+
+

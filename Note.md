@@ -101,3 +101,7 @@ plugins: [
 
 ##### 去重复
 * 设置optimization.splitChunks
+
+##### 动态引入
+* 使用import 语法 符合ES对动态引入的建议
+* webpack-specific 的途径是使用 require.ensure
