@@ -11,3 +11,5 @@
 4. 今天从production到  code splitting 的 entry points 的学习笔记；新增单词表
 
 5. Dynamic Imports
+
+6. Lazy Loading
