@@ -68,4 +68,48 @@
 
 ### artificial 人造的
 
+### prefetch 预取
+
+### preload 预加载
+
+### directive 指令
+
+### declaring 声明
+
+### hint 线索
+
+### instantly 立即地
+
+### request 要求的
+
+### bundle 束
+
+### analysis 分析
+
+### bundle analysis 捆绑分析
+
+### analyze 分析
+
+### optimize 使……最优化
+
+### essentially 本质上
+
+### involve 包含
+
+### require 需要
+
+### initial 初始化
+
+### lighten 减轻
+
+### overall 全部的
+
+### tweak 调整
+
+### tweak it a bit 稍微调整一下
+
+### demonstrate 证明
+
+### concept 观念
+
 
