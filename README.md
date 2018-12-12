@@ -13,3 +13,6 @@
 5. Dynamic Imports
 
 6. Lazy Loading
+       有针对于 react 专门的 lazy loading 和 code spliting
+
+7. Caching 高速存储

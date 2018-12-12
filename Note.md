@@ -136,10 +136,12 @@ import(/* webpackPreload: true */ 'ChartingLibrary')
 ```
 
 ### Bundle Analysis 捆绑分析
-有几种分析工具见webpack api
-https://webpack.js.org/guides/code-splitting/#bundle-analysis
 
+有几种分析工具见 webpack api
+https://webpack.js.org/guides/code-splitting/#bundle-analysis
 
 ### 懒加载
 
 懒加载(请求加载)是一种很不错的优化你的网站或应用的方式。
+
+### 高速缓存 caching

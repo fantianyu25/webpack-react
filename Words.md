@@ -40,7 +40,9 @@
 
 ### extract: 提取
 
-### dependencies 依赖
+### depen
+
+dencies 依赖
 
 ### entirely 完全地
 
@@ -112,4 +114,22 @@
 
 ### concept 观念
 
+### modular 模块化
 
+### yields 产量、产生
+
+### deployable 可展开的
+
+### deployed 部署
+
+### typically 通常，代表性的
+
+### hit it行业翻译为方位
+
+### grab 抓取
+
+### assets 资源
+
+### consuming 耗费
+
+### time consuming 耗费时间
